@@ -13,9 +13,9 @@
 <p>
   <strong>Content:</strong>
   <% if @user.microposts.present? %>
-  <%= @user.microposts.first.content %>
+    <%= @user.microposts.first.content %>
   <% else %>
-  <%= "no_content" %>
+    <%= "no_content" %>
   <% end %>
 </p>
 
